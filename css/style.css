@@ -39,7 +39,7 @@
 
 
 
-/* header */
+                                                /* header */
 
 header{
     background-color: #FF6900;
@@ -86,7 +86,7 @@ div.icons{
     filter: brightness(0) invert(1);
 }
 
-/* main */
+                                                /* main */
 
 .heart{
     display: inline-block;
@@ -158,3 +158,42 @@ div.icons{
 div.heart:hover{
     color:red;
 }
+
+
+                                                /* footer */
+
+footer{
+    background-color: #1A1A1A;
+    padding: 20px 0;
+    color:white;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.azienda, .invitoSocial{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.informative{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.iconeSocial{
+    padding-top: 5px;
+    display: flex;
+    filter: brightness(0) invert(1);
+}
+
+.iconaSocialSingola{
+    width:25px;
+    padding-right:10px;
+}
+
