@@ -37,9 +37,7 @@
     justify-content: center;
 }
 
-.image{
-    width: 100%;
-}
+
 
 /* header */
 
@@ -103,7 +101,7 @@ div.icons{
 .infoProdotto{
     position: absolute;
     left:0;
-    bottom: 10%;
+    top: 450px;
 }
 
 .sostenibile, .sconto{
@@ -118,4 +116,45 @@ div.icons{
 
 .sostenibile{
     background-color: #008000;
+}
+
+.marca{
+    font-size: 14px;
+}
+
+.bigger_text{
+    font-weight: bold;
+}
+
+.price{
+    color:red;
+    font-size: 14px;
+}
+
+.notSale{
+    text-decoration: line-through;
+    color: black;
+}
+
+
+.image{
+    width: 100%;
+    z-index: -1;
+}
+
+
+.image_b{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -2;
+}
+
+.col:hover .image_b{
+    z-index: 0;
+}
+
+div.heart:hover{
+    color:red;
 }
