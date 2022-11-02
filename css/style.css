@@ -110,7 +110,7 @@ margin-top: 100px;
 .infoProdotto{
     position: absolute;
     left:0;
-    top: 450px;
+    bottom: 100px;
 }
 
 .sostenibile, .sconto{
